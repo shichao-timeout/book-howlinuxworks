@@ -1,0 +1,3 @@
+C:/Users/surface/CLionProjects/howlinuxworks/cmake-build-debug/CMakeFiles/howlinuxworks.dir
+C:/Users/surface/CLionProjects/howlinuxworks/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/surface/CLionProjects/howlinuxworks/cmake-build-debug/CMakeFiles/rebuild_cache.dir
