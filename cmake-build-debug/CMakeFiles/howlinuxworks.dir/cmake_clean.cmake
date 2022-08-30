@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/howlinuxworks.dir/main.c.obj"
+  "CMakeFiles/howlinuxworks.dir/cbase/constTest.c.obj"
+  "CMakeFiles/howlinuxworks.dir/cbase/main.c.obj"
+  "CMakeFiles/howlinuxworks.dir/cbase/test.c.obj"
   "howlinuxworks.exe"
   "howlinuxworks.exe.manifest"
   "howlinuxworks.pdb"

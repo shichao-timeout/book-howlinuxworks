@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/surface/CLionProjects/howlinuxworks/cbase/constTest.c
+stdio.h
+C:/Users/surface/CLionProjects/howlinuxworks/cbase/stdio.h
+

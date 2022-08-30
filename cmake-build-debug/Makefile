@@ -122,32 +122,86 @@ howlinuxworks/fast:
 	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/build
 .PHONY : howlinuxworks/fast
 
-main.obj: main.c.obj
+cbase/constTest.obj: cbase/constTest.c.obj
 
-.PHONY : main.obj
+.PHONY : cbase/constTest.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/main.c.obj
-.PHONY : main.c.obj
+cbase/constTest.c.obj:
+	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/cbase/constTest.c.obj
+.PHONY : cbase/constTest.c.obj
 
-main.i: main.c.i
+cbase/constTest.i: cbase/constTest.c.i
 
-.PHONY : main.i
+.PHONY : cbase/constTest.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/main.c.i
-.PHONY : main.c.i
+cbase/constTest.c.i:
+	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/cbase/constTest.c.i
+.PHONY : cbase/constTest.c.i
 
-main.s: main.c.s
+cbase/constTest.s: cbase/constTest.c.s
 
-.PHONY : main.s
+.PHONY : cbase/constTest.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/main.c.s
-.PHONY : main.c.s
+cbase/constTest.c.s:
+	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/cbase/constTest.c.s
+.PHONY : cbase/constTest.c.s
+
+cbase/main.obj: cbase/main.c.obj
+
+.PHONY : cbase/main.obj
+
+# target to build an object file
+cbase/main.c.obj:
+	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/cbase/main.c.obj
+.PHONY : cbase/main.c.obj
+
+cbase/main.i: cbase/main.c.i
+
+.PHONY : cbase/main.i
+
+# target to preprocess a source file
+cbase/main.c.i:
+	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/cbase/main.c.i
+.PHONY : cbase/main.c.i
+
+cbase/main.s: cbase/main.c.s
+
+.PHONY : cbase/main.s
+
+# target to generate assembly for a file
+cbase/main.c.s:
+	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/cbase/main.c.s
+.PHONY : cbase/main.c.s
+
+cbase/test.obj: cbase/test.c.obj
+
+.PHONY : cbase/test.obj
+
+# target to build an object file
+cbase/test.c.obj:
+	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/cbase/test.c.obj
+.PHONY : cbase/test.c.obj
+
+cbase/test.i: cbase/test.c.i
+
+.PHONY : cbase/test.i
+
+# target to preprocess a source file
+cbase/test.c.i:
+	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/cbase/test.c.i
+.PHONY : cbase/test.c.i
+
+cbase/test.s: cbase/test.c.s
+
+.PHONY : cbase/test.s
+
+# target to generate assembly for a file
+cbase/test.c.s:
+	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/cbase/test.c.s
+.PHONY : cbase/test.c.s
 
 # Help Target
 help:
@@ -158,9 +212,15 @@ help:
 	@echo ... howlinuxworks
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... cbase/constTest.obj
+	@echo ... cbase/constTest.i
+	@echo ... cbase/constTest.s
+	@echo ... cbase/main.obj
+	@echo ... cbase/main.i
+	@echo ... cbase/main.s
+	@echo ... cbase/test.obj
+	@echo ... cbase/test.i
+	@echo ... cbase/test.s
 .PHONY : help
 
 

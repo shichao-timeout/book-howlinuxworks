@@ -56,32 +56,62 @@ include CMakeFiles/howlinuxworks.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/howlinuxworks.dir/flags.make
 
-CMakeFiles/howlinuxworks.dir/main.c.obj: CMakeFiles/howlinuxworks.dir/flags.make
-CMakeFiles/howlinuxworks.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/howlinuxworks.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\howlinuxworks.dir\main.c.obj   -c C:\Users\surface\CLionProjects\howlinuxworks\main.c
+CMakeFiles/howlinuxworks.dir/cbase/main.c.obj: CMakeFiles/howlinuxworks.dir/flags.make
+CMakeFiles/howlinuxworks.dir/cbase/main.c.obj: ../cbase/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/howlinuxworks.dir/cbase/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\howlinuxworks.dir\cbase\main.c.obj   -c C:\Users\surface\CLionProjects\howlinuxworks\cbase\main.c
 
-CMakeFiles/howlinuxworks.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/howlinuxworks.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\surface\CLionProjects\howlinuxworks\main.c > CMakeFiles\howlinuxworks.dir\main.c.i
+CMakeFiles/howlinuxworks.dir/cbase/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/howlinuxworks.dir/cbase/main.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\surface\CLionProjects\howlinuxworks\cbase\main.c > CMakeFiles\howlinuxworks.dir\cbase\main.c.i
 
-CMakeFiles/howlinuxworks.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/howlinuxworks.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\surface\CLionProjects\howlinuxworks\main.c -o CMakeFiles\howlinuxworks.dir\main.c.s
+CMakeFiles/howlinuxworks.dir/cbase/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/howlinuxworks.dir/cbase/main.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\surface\CLionProjects\howlinuxworks\cbase\main.c -o CMakeFiles\howlinuxworks.dir\cbase\main.c.s
+
+CMakeFiles/howlinuxworks.dir/cbase/test.c.obj: CMakeFiles/howlinuxworks.dir/flags.make
+CMakeFiles/howlinuxworks.dir/cbase/test.c.obj: ../cbase/test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/howlinuxworks.dir/cbase/test.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\howlinuxworks.dir\cbase\test.c.obj   -c C:\Users\surface\CLionProjects\howlinuxworks\cbase\test.c
+
+CMakeFiles/howlinuxworks.dir/cbase/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/howlinuxworks.dir/cbase/test.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\surface\CLionProjects\howlinuxworks\cbase\test.c > CMakeFiles\howlinuxworks.dir\cbase\test.c.i
+
+CMakeFiles/howlinuxworks.dir/cbase/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/howlinuxworks.dir/cbase/test.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\surface\CLionProjects\howlinuxworks\cbase\test.c -o CMakeFiles\howlinuxworks.dir\cbase\test.c.s
+
+CMakeFiles/howlinuxworks.dir/cbase/constTest.c.obj: CMakeFiles/howlinuxworks.dir/flags.make
+CMakeFiles/howlinuxworks.dir/cbase/constTest.c.obj: ../cbase/constTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/howlinuxworks.dir/cbase/constTest.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\howlinuxworks.dir\cbase\constTest.c.obj   -c C:\Users\surface\CLionProjects\howlinuxworks\cbase\constTest.c
+
+CMakeFiles/howlinuxworks.dir/cbase/constTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/howlinuxworks.dir/cbase/constTest.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\surface\CLionProjects\howlinuxworks\cbase\constTest.c > CMakeFiles\howlinuxworks.dir\cbase\constTest.c.i
+
+CMakeFiles/howlinuxworks.dir/cbase/constTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/howlinuxworks.dir/cbase/constTest.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\surface\CLionProjects\howlinuxworks\cbase\constTest.c -o CMakeFiles\howlinuxworks.dir\cbase\constTest.c.s
 
 # Object files for target howlinuxworks
 howlinuxworks_OBJECTS = \
-"CMakeFiles/howlinuxworks.dir/main.c.obj"
+"CMakeFiles/howlinuxworks.dir/cbase/main.c.obj" \
+"CMakeFiles/howlinuxworks.dir/cbase/test.c.obj" \
+"CMakeFiles/howlinuxworks.dir/cbase/constTest.c.obj"
 
 # External object files for target howlinuxworks
 howlinuxworks_EXTERNAL_OBJECTS =
 
-howlinuxworks.exe: CMakeFiles/howlinuxworks.dir/main.c.obj
+howlinuxworks.exe: CMakeFiles/howlinuxworks.dir/cbase/main.c.obj
+howlinuxworks.exe: CMakeFiles/howlinuxworks.dir/cbase/test.c.obj
+howlinuxworks.exe: CMakeFiles/howlinuxworks.dir/cbase/constTest.c.obj
 howlinuxworks.exe: CMakeFiles/howlinuxworks.dir/build.make
 howlinuxworks.exe: CMakeFiles/howlinuxworks.dir/linklibs.rsp
 howlinuxworks.exe: CMakeFiles/howlinuxworks.dir/objects1.rsp
 howlinuxworks.exe: CMakeFiles/howlinuxworks.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable howlinuxworks.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable howlinuxworks.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\howlinuxworks.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

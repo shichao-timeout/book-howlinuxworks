@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/surface/CLionProjects/howlinuxworks/main.c" "C:/Users/surface/CLionProjects/howlinuxworks/cmake-build-debug/CMakeFiles/howlinuxworks.dir/main.c.obj"
+  "C:/Users/surface/CLionProjects/howlinuxworks/cbase/constTest.c" "C:/Users/surface/CLionProjects/howlinuxworks/cmake-build-debug/CMakeFiles/howlinuxworks.dir/cbase/constTest.c.obj"
+  "C:/Users/surface/CLionProjects/howlinuxworks/cbase/main.c" "C:/Users/surface/CLionProjects/howlinuxworks/cmake-build-debug/CMakeFiles/howlinuxworks.dir/cbase/main.c.obj"
+  "C:/Users/surface/CLionProjects/howlinuxworks/cbase/test.c" "C:/Users/surface/CLionProjects/howlinuxworks/cmake-build-debug/CMakeFiles/howlinuxworks.dir/cbase/test.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -76,7 +76,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/surface/CLionProjects/howlinuxworks/main.c">
+		<Unit filename="C:/Users/surface/CLionProjects/howlinuxworks/cbase/constTest.c">
+			<Option target="howlinuxworks"/>
+		</Unit>
+		<Unit filename="C:/Users/surface/CLionProjects/howlinuxworks/cbase/main.c">
+			<Option target="howlinuxworks"/>
+		</Unit>
+		<Unit filename="C:/Users/surface/CLionProjects/howlinuxworks/cbase/test.c">
 			<Option target="howlinuxworks"/>
 		</Unit>
 		<Unit filename="C:/Users/surface/CLionProjects/howlinuxworks/CMakeLists.txt">

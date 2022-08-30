@@ -3,4 +3,4 @@ project(howlinuxworks C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(howlinuxworks main.c)
+add_executable(howlinuxworks cbase/main.c cbase/test.c cbase/constTest.c)

@@ -73,12 +73,12 @@ clean: CMakeFiles/howlinuxworks.dir/clean
 CMakeFiles/howlinuxworks.dir/all:
 	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/depend
 	$(MAKE) -f CMakeFiles\howlinuxworks.dir\build.make CMakeFiles/howlinuxworks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target howlinuxworks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target howlinuxworks"
 .PHONY : CMakeFiles/howlinuxworks.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/howlinuxworks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/howlinuxworks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surface\CLionProjects\howlinuxworks\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/howlinuxworks.dir/rule
